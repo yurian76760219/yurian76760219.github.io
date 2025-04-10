@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pagina1.css">
+    <title>PORTAFOLIO</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="wrapper">
+                <div class="logo"><a href="#" id="toggle-dark-mode">Yurian</a></div>
+                <input type="radio" name="slider" id="menu-btn">
+                <input type="radio" name="slider" id="close-btn">
+                <ul class="nav-links">
+                    <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                    <li><a href="#" class="show-modal" data-title="Bienvenido a Mi Portafolio" data-message="Hola Soy Yurian Quispe Victoria un estudiante de la carrera de ingeniería de sistemas y computación. Me gusta la tecnología y me apasiona la ciencia.">Sobre Mi</a></li>
+                    <li><a href="#" class="show-modal" data-title="Descripción de mi Portafolio" data-message="Este portafolio lo creé para poder subir mis trabajos de la universidad.">Descripción</a></li>
+                </ul>
+                <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+    <!-- Fin del Modal -->
+
+    <!-- Intro -->
+    <div class="intro">
+        <p>Welcome to our website! We offer a range of specialized services to ensure your success online.</p>
+    </div>
+
+    <!-- Contenido de las semanas -->
+    <div class="container">
+        <div class="feature-box">
+            <div class="icon"><img src="Iconos/programming.svg" width="15%" alt=""></div>
+            <h2>SEMANA 01</h2>
+            <p>Diagrama y Practica</p>
+            <a href="https://miro.com/app/board/uXjVIFahQhU=/?inviteKey=V2ZXRHVPM1VVMVNWbkU2MVgvL1FmcXhSU1dxbmNwQ0syMWE3Yk4zd1BFQW90aklkZmRQRWp1UStIdXZxVEJ2b05wZVlYUHRXWWxJU3hrbVpVQnBNWVlhaTNncm11TUpONHBQazk3YnFUNlk2MDZNT2o5cDI5aWJvV2xGV1B6d3l0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=" class="custom-button" target="_blank">Ver Miro</a>
+            <a href="https://www.canva.com/design/DAGji3nxKrI/gE5sHO90rC7vXzM64YdERA/view?utm_content=DAGji3nxKrI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8c3996c150" class="custom-button" target="_blank">Ver Canva</a>
+        </div>
+        <div class="feature-box">
+            <div class="icon"><img src="Iconos/programming-1.svg" width="20%" alt=""></div>
+            <h2>Semana 02</h2>
+            <p></p>
+            <a href="https://example.com" class="custom-button">Ver</a>
+        </div>
+        <div class="feature-box">
+            <div class="icon"><img src="Iconos/programming-2.svg" width="20%" alt=""></div>
+            <h2>Semana 03</h2>
+            <p></p>
+            <a href="https://example.com" class="custom-button">Ver</a>
+        </div>
+        <div class="feature-box">
+            <div class="icon"><img src="Iconos/programming-3.svg" width="20%" alt=""></div>
+            <h2>Semana 04</h2>
+            <p></p>
+            <a href="https://example.com" class="custom-button">Ver</a>
+        </div>
+        <div class="feature-box">
+            <div class="icon"><img src="Iconos/programming-4.svg" width="20%" alt=""></div>
+            <h2>Semana 05</h2>
+            <p></p>
+            <a href="https://example.com" class="custom-button">Ver</a>
+        </div>
+        <div class="feature-box">
+            <div class="icon"><img src="Iconos/programming-5.svg" width="20%" alt=""></div>
+            <h2>Semana 06</h2>
+            <p></p>
+            <a href="https://example.com" class="custom-button">Ver</a>
+        </div>
+        <div class="feature-box">
+            <div class="icon"><img src="Iconos/programming-5.svg" width="20%" alt=""></div>
+            <h2>Semana 07</h2>
+            <p></p>
+            <a href="https://example.com" class="custom-button">Ver</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Yurian Development. Contenido propio.</p>
+    </footer>
+
+    <script src="Pagina1.js"></script>
+</body>
+</html>
